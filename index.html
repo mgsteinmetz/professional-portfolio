@@ -3,30 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mike Steinmetz</title>
-    <link rel="styelsheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Mike Steinmetz</h1>
-
-        <nav>
-            <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">My Work</a></li>
-                <li><a href="#">Contact Me</a></li>
+    <header class="header">
+        <div class="navImage">
+            <img id="headPic" src="./assets/images/7606F297-C4A3-42A6-BA73-63FB3F6ECFD3_1_201_a.jpeg" alt="Head Shot Photo">
+            <h1 class="myName">Mike Steinmetz</h1>
+        </div>
+        <nav class="navBar">
+            <ul class="links">
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#about">About Me</a></li>
             </ul>
         </nav>
-
     </header>
 
     <main>
-        <article>
-            <h2>About Me</h2>
+        <article class="flexArticle" id="about">
+            <h2 class="rowTitle">About Me</h2>
 
-            <p>
+            <p class="rowInfo">
                 Hello! I am currently a student at University of Minnesota Coding Bootcamps. I also do comercial, and
                 residential lawn mowing for Murtha Lawn Care LLC.
                 I grew up about forty minutes east of the twin cities, in the small town of Hammond, WI.
@@ -43,29 +45,66 @@
                 working with the different software programs!
 
             </p>
-
         </article>
 
-        <article>
-            <h2> My Work</h2>
-
-            
+        <article class="flexArticle" id="work">
+            <h2 class="rowTitle">Work</h2>
+            <div class="rowInfo">
+                <!-- row one -->
+                <div class="flexRow firstRow">
+                    <div class="card freeCard">
+                        <h3>Freelance</h3>
+                        <p>
+                            HTML - CSS - JavaScript
+                        </p>
+                    </div>
+                </div>
+                <!-- row two -->
+                <div class="flexRow">
+                    <div class="card cardTwo">
+                        <h3>Coming Soon</h3>
+                        <p>
+                            HTML - CSS - JavaScript
+                        </p>
+                    </div>
+                    <div class="card cardThree">
+                        <h3>Coming Soon</h3>
+                        <p>
+                            HTML - CSS - JavaScript
+                        </p>
+                    </div>
+                </div>
+                <!-- row three -->
+                <div class="flexRow lastRow">
+                    <div class="card cardFour">
+                        <h3>Coming Soon</h3>
+                        <p>
+                            HTML - CSS - JavaScript
+                        </p>
+                    </div>
+                    <div class="card cardFive">
+                        <h3>Coming Soon</h3>
+                        <p>
+                            HTML - CSS - JavaScript
+                        </p>
+                    </div>
+                </div>
+            </div>
         </article>
-
+        <article class="flexArticle" id="contact">
+            <h2 class="rowTitle">Contact Me</h2>
+    
+            <div class="rowInfo foot">
+                <ul class="links">
+                    <li><a href="#">612-850-6012</a></li>
+                    <li><a href="#">mikesteinmetz00@gmail.com</a></li>
+                    <li><a href="https://github.com/mgsteinmetz" target="blank">GitHub</a></li>
+                    <li><a href="#">Apple Music</a></li>
+                </ul>
+            </div>
+        </article>
     </main>
 
-    <footer>
-        <h2>Contact Me</h2>
-        
-        <div>
-            <ul>
-                <li><a href="#">612-850-6012</a></li>
-                <li><a href="#">mikesteinmetz00@gmail.com</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Apple Music</a></li>
-            </ul>
-        </div>
-    </footer>
 </body>
 
 </html>
