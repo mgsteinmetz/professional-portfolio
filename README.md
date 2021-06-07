@@ -4,6 +4,8 @@
 
 This is my first published portfolio that employers can view to learn more about me, and work that I have completed!!
 
+If you want to check out my published page, head over to https://mgsteinmetz.github.io/professional-portfolio/
+
 Shown below is my webpage that includes a Navigation Bar and an 'About Me' section. The navigation bar has functioning links allowing for user to easily scroll through the page.
 
 
