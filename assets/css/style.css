@@ -144,6 +144,10 @@ h1 {
 .card {
   border: 4px solid black;
   border-radius: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 35px;
 }
 
 .foot a {
@@ -167,7 +171,8 @@ h1 {
 }
 
 .freeCard {
-  background-image: url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGZyZWVsYW5jZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+  background-image: url(../images/mainHeader.jpg);
+  color: whitesmoke;
   background-repeat: no-repeat;
   background-size: 850px 500px;
   height: 500px;
@@ -182,7 +187,8 @@ h1 {
 }
 
 .cardTwo {
-  background-image: url(https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60);
+  background-image: url(../images/codeQuizImage.jpeg);
+  color: whitesmoke;
   height: 200px;
   width: 425px;
   margin-right: 10px;
@@ -196,7 +202,8 @@ h1 {
 }
 
 .cardThree {
-  background-image: url(https://images.unsplash.com/photo-1612712191426-54db4d88cbec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NTl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+  background-image: url(../images/weatherImage.jpeg);
+  color: whitesmoke;
   height: 200px;
   width: 425px;
   margin-left: 10px;
@@ -211,6 +218,7 @@ h1 {
 
 .cardFour {
   background-image: url(https://wallpaperaccess.com/full/5651990.jpg);
+  color: whitesmoke;
   height: 200px;
   width: 425px;
   margin-right: 10px;
@@ -224,7 +232,8 @@ h1 {
 }
 
 .cardFive {
-  background-image: url(https://www.theme-junkie.com/wp-content/uploads/Coding-Programming-Background-4.jpg);
+  background-image: url(../images/SchedulerImage.png);
+  color: whitesmoke;
   height: 200px;
   width: 425px;
   margin-left: 10px;
@@ -237,14 +246,24 @@ h1 {
   transition: var(--transition);
 }
 
+/* no decoration on links */
+.decorationNone {
+  text-decoration: none;
+  color: whitesmoke;
+}
+/* no decoration to change color (on hover) */
+.decorationNone:hover {
+  text-decoration: underline;
+}
+
 /* Accessibility Media Querries */
 @media screen (max-width: 992px) {
-    body {
-        width: 50%;
-    }
+  body {
+    width: 50%;
+  }
 }
 @media screen (max-width:768px) {
-    body {
-        width: 100%
-    }
+  body {
+    width: 100%
+  }
 }
