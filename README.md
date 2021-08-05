@@ -17,4 +17,4 @@ Shown below is the content listed inside my 'Work" section. Here you can find va
 Also shown is a "contact" section giving the user multiple ways to reach me.
 
 
-![Screen Shot 2021-06-07 at 6 16 06 PM](https://user-images.githubusercontent.com/77464741/121098916-7ecbda00-c7bc-11eb-955d-b33a8a79cc47.png)
+![Screen Shot 2021-06-07 at 7 20 30 PM](https://user-images.githubusercontent.com/77464741/121103393-79bf5880-c7c5-11eb-9e20-c4ecbbf7cb2a.png)
