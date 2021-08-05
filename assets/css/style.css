@@ -171,7 +171,7 @@ h1 {
 }
 
 .freeCard {
-  background-image: url(../images/mainHeader.jpg);
+  background-image: url(../images/dog-footprint-wallpaper.png);
   color: whitesmoke;
   background-repeat: no-repeat;
   background-size: 850px 500px;
@@ -187,7 +187,7 @@ h1 {
 }
 
 .cardTwo {
-  background-image: url(../images/codeQuizImage.jpeg);
+  background-image: url(../images/mainHeader.jpg);
   color: whitesmoke;
   height: 200px;
   width: 425px;
