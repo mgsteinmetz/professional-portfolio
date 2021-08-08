@@ -1,15 +1,22 @@
-# Professional-Portfolio - Advanced CSS
+# Professional-Portfolio
+
+## Table of Contents
+
+- [Description](#description)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description
-
 This is my first published portfolio that employers can view to learn more about me, and work that I have completed!!
 
-If you want to check out my published page, head over to https://mgsteinmetz.github.io/professional-portfolio/
+Click [HERE](https://mgsteinmetz.github.io/professional-portfolio/) to VIEW my deployed application!!
 
 Shown below is my webpage that includes a Navigation Bar and an 'About Me' section. The navigation bar has functioning links allowing for user to easily scroll through the page.
 
 
-![Screen Shot 2021-06-07 at 6 15 45 PM](https://user-images.githubusercontent.com/77464741/121098910-7a9fbc80-c7bc-11eb-8768-2c4469934531.png)
+<img width="1440" alt="Screen Shot 2021-08-08 at 1 51 33 PM" src="https://user-images.githubusercontent.com/77464741/128642718-6b3ff06c-fe93-48aa-ab3c-278318d50e2b.png">
 
 
 Shown below is the content listed inside my 'Work" section. Here you can find various projects that I have completed so far!!
@@ -17,4 +24,18 @@ Shown below is the content listed inside my 'Work" section. Here you can find va
 Also shown is a "contact" section giving the user multiple ways to reach me.
 
 
-![Screen Shot 2021-06-07 at 7 20 30 PM](https://user-images.githubusercontent.com/77464741/121103393-79bf5880-c7c5-11eb-9e20-c4ecbbf7cb2a.png)
+<img width="1439" alt="Screen Shot 2021-08-08 at 1 51 58 PM" src="https://user-images.githubusercontent.com/77464741/128642725-fa87c112-e6b2-477e-be76-cccaf04ed725.png">
+ 
+
+## License
+My project uses the MIT License.
+
+## Contributing
+I am not looking for contribution at this time.
+
+## Tests
+I did not use any tests while creating my portfolio.
+
+## Questions
+If you have any questions about my project, visit my [GitHub](https://github.com/mgsteinmetz) 
+or email me using: mikesteinmetz00@gmail.com
